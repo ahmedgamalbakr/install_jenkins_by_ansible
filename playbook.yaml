@@ -1,0 +1,6 @@
+- name: install_jenkins 
+  hosts: jenkins
+  become: true
+  gather_facts: false
+  roles:
+    - jenkins
